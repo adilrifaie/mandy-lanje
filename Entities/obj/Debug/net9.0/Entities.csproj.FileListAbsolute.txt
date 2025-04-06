@@ -20,3 +20,15 @@ A:\BTK Akademi\asp-net-core-mvc\ch_15_Tag-helpers\Store\Entities\obj\Debug\net9.
 A:\BTK Akademi\asp-net-core-mvc\ch_15_Tag-helpers\Store\Entities\obj\Debug\net9.0\refint\Entities.dll
 A:\BTK Akademi\asp-net-core-mvc\ch_15_Tag-helpers\Store\Entities\obj\Debug\net9.0\Entities.pdb
 A:\BTK Akademi\asp-net-core-mvc\ch_15_Tag-helpers\Store\Entities\obj\Debug\net9.0\ref\Entities.dll
+A:\github repo\mandy-lanje\Entities\bin\Debug\net9.0\Entities.deps.json
+A:\github repo\mandy-lanje\Entities\bin\Debug\net9.0\Entities.dll
+A:\github repo\mandy-lanje\Entities\bin\Debug\net9.0\Entities.pdb
+A:\github repo\mandy-lanje\Entities\obj\Debug\net9.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+A:\github repo\mandy-lanje\Entities\obj\Debug\net9.0\Entities.AssemblyInfoInputs.cache
+A:\github repo\mandy-lanje\Entities\obj\Debug\net9.0\Entities.AssemblyInfo.cs
+A:\github repo\mandy-lanje\Entities\obj\Debug\net9.0\Entities.csproj.CoreCompileInputs.cache
+A:\github repo\mandy-lanje\Entities\obj\Debug\net9.0\Entities.sourcelink.json
+A:\github repo\mandy-lanje\Entities\obj\Debug\net9.0\Entities.dll
+A:\github repo\mandy-lanje\Entities\obj\Debug\net9.0\refint\Entities.dll
+A:\github repo\mandy-lanje\Entities\obj\Debug\net9.0\Entities.pdb
+A:\github repo\mandy-lanje\Entities\obj\Debug\net9.0\ref\Entities.dll
