@@ -64,6 +64,16 @@ public static class ServiceExtension
         services.AddScoped<IOrderService, OrderService>();
     }
 
+    public static void ConfigureApplicationCookie(this IServiceCollection services)
+    {
+        services.ConfigureApplicationCookie(options =>
+        {
+            options.LoginPath = new PathString("/Account/Login");
+            options.AccessDeniedPath = new PathString("/Account/AccessDenied");
+            options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
+        });
+    }
+
     public static void ConfigureRouting(this IServiceCollection services)
     {
         services.AddRouting(options =>
