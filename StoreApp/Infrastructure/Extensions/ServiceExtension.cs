@@ -11,14 +11,14 @@ namespace StoreApp.Infrastructure.Extensions;
 
 public static class ServiceExtension
 {
-    public static void ConfigureDbContext(this IServiceCollection services, IConfiguration configuration)
+    public static void ConfigureDbContext(this IServiceCollection services, IConfiguration configuration, IWebHostEnvironment environment)
     {
         services.AddDbContext<RepositoryContext>(options =>
         {
             options.UseSqlite(configuration.GetConnectionString("sqlconnection"),
             b => b.MigrationsAssembly("StoreApp"));
 
-            options.EnableSensitiveDataLogging(true);
+            options.EnableSensitiveDataLogging(environment.IsDevelopment());
         });
     }
 
