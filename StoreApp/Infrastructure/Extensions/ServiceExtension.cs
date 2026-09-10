@@ -62,6 +62,7 @@ public static class ServiceExtension
         services.AddScoped<IProductService, ProductService>();
         services.AddScoped<ICategoryService, CategoryService>();
         services.AddScoped<IOrderService, OrderService>();
+        services.AddScoped<IAuthService, AuthService>();
     }
 
     public static void ConfigureApplicationCookie(this IServiceCollection services)
