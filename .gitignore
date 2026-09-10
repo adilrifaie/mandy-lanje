@@ -15,3 +15,6 @@ obj/
 
 ## User secrets / local overrides
 appsettings.*.local.json
+
+## Sample Files
+sample/
