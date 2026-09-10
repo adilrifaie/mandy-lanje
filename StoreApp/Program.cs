@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
-builder.Services.ConfigureDbContext(builder.Configuration);
+builder.Services.ConfigureDbContext(builder.Configuration, builder.Environment);
 builder.Services.ConfigureIdentity();
 builder.Services.ConfigureSession();
 builder.Services.ConfigureRepositoryRegistration();
@@ -17,6 +17,7 @@ builder.Services.AddAutoMapper(typeof(Program));
 var app = builder.Build();
 
 app.UseStaticFiles();
+app.ConfigureLocalization();
 app.UseSession();
 
 app.UseHttpsRedirection();
@@ -35,6 +36,5 @@ app.UseEndpoints(endpoints =>
     endpoints.MapRazorPages();
 });
 app.ConfigureAndCheckMigration();
-app.ConfigureLocalization();
 app.ConfigureDefaultAdminUser();
 app.Run();
